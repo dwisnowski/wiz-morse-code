@@ -14,7 +14,7 @@ var handlers = {
 
         var morseCode = translator.toMorseCode(factToSay);
         // console.log('translated: ' + translated);
-        
+
         this.emit(':tellWithCard', morseCode, 'Morse Code Fact', factToSay);
     }
 };

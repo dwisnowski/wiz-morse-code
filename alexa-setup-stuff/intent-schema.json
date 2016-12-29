@@ -1,0 +1,12 @@
+{
+  "intents": [
+    {
+      "intent": "sayAFact",
+      "slots": []
+    },
+    {
+      "intent": "AMAZON.RepeatIntent",
+      "slots": []
+    }
+  ]
+}
